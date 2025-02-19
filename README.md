@@ -16,6 +16,11 @@ cd "<PathToScript>"
 .\WheelReverse.ps1
 ```
 
+In case script execution is prohibited in the system, run the following command in PowerShell as an administrator:
+```
+Set-ExecutionPolicy Bypass –Force
+```
+
 The wheel may return to its default mode if the mouse is connected to a different port, 
 as the computer will detect the device under a different registry branch. 
 If this happens, please rerun the script.
